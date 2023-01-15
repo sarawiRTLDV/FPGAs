@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'RX:C2|BUSY'
+Slack : -33.513
+TNS   : -490.151
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -3.443
+TNS   : -177.093
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.677
+TNS   : -2.677
+
+Type  : Slow Model Hold 'RX:C2|BUSY'
+Slack : 1.128
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.631
+TNS   : -100.613
+
+Type  : Slow Model Minimum Pulse Width 'RX:C2|BUSY'
+Slack : -0.611
+TNS   : -34.216
+
+Type  : Fast Model Setup 'RX:C2|BUSY'
+Slack : -12.017
+TNS   : -173.869
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.776
+TNS   : -25.186
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.708
+TNS   : -1.708
+
+Type  : Fast Model Hold 'RX:C2|BUSY'
+Slack : 0.839
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -82.380
+
+Type  : Fast Model Minimum Pulse Width 'RX:C2|BUSY'
+Slack : -0.500
+TNS   : -28.000
+
+------------------------------------------------------------

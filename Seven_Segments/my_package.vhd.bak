@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+package my_pkg is
+	function INT_TO_7SEG (A: integer) Return std_logic_vector;
+end my_pkg;
+
+
+package body my_pkg is
+	function INT_to_7seg(A: integer) return std_logic_vector is
+		variable Result: std_logic_vector(6 downto 0);
+		begin
+			case A is
+				when 0 => result := "1000000";
+				when 1 => result := "1111001";
+				when 2 => result := "0100100";
+				when 3 => result := "0110000";
+				when 4 => result := "0011001";
+				when 5 => result := "0010010";
+				when 6 => result := "0000010";
+				when 7 => result := "1111000";
+				when 8 => result := "0000000";
+				when 9 => result := "0010000";
+				when others result := (others => '0');
+			end case;
+		return result;
+	end INT_to_7Seg;
+	
+end my_pkg;

@@ -1,0 +1,18 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity seven_segment_display_VHDL is
+	port(
+		
+	);
+end seven_segment_display_VHDL;
+
+
+architecture SS of seven_segment_display_VHDL is
+
+begin
+
+	
+	
+end SS;
